@@ -20,5 +20,5 @@ jobs:
         run: yarn build
       - name: Install Surge
         run: npm install -g surge
-      - name: Run Surge
-      run: surge ./ basic-react-app.surge.sh --token ${{secrets.SURGE_TOKEN_1}}
+      - name: Run surge
+        run: surge ./ basic-react-app.surge.sh --token ${{secrets.SURGE_TOKEN_1}}
