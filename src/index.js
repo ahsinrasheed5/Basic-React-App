@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./Hi";
+import App from './App' ;
 
 
-ReactDOM.render(<Hi name="Sir M.Ahsin"/>, document.querySelector('#root'));
+ReactDOM.render(<App />, document.querySelector('#root'));
+

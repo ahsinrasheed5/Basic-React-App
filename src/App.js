@@ -1,7 +1,8 @@
 import React from 'react';
 import "./App.css";
+import { Component } from "react";
 
-const  Hi = (props) =>{
+const  App = (props) =>{
   return <div>
           <h1>Expample 1</h1>
           Hello <strong>{props.name}</strong>
@@ -20,4 +21,5 @@ const  Hi = (props) =>{
         </div>;
 }
 
-export default Hi ;
+
+export default App ;
