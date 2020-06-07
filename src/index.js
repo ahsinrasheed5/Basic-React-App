@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
-import MediaCard from './MediaCard.js';
+// import MediaCard from './MediaCard.js';
 
 const  Hi = (props) =>{
   return <div>
