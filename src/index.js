@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
-import "./MediaCard.js"
 import MediaCard from './MediaCard.js';
 
 const  Hi = (props) =>{
@@ -17,9 +16,10 @@ const  Hi = (props) =>{
           { 5 + 10}
           <hr/>
           <h1>Expample 2</h1>
-
+          <h2>M.Ahsin 's Task</h2>
+          <p>This is your turn  Example from <strong> Daveceddia </strong> </p>
+          <img  src="./flag.jpg" width="200px" height="200px"  alt = "pic" />
         </div>;
 }
 
 ReactDOM.render(<Hi name="Sir M.Ahsin"/>, document.querySelector('#root'));
-ReactDOM.render(<MediaCard/>, document.querySelector('#sub-root'));
